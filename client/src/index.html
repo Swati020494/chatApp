@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+   <head>
+      <meta charset = "UTF-8">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css">
+         <script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
+                  <style type="text/css"> 
+            #chat{height:500px;
+            border:1px;
+               margin-right:2px;}
+            #contentWrap{
+               border:1px solid;
+               display:none;
+            }
+            .error{
+               color:red;
+            }
+            .whisper{
+               color:grey;
+            }
+            #chatWrap{
+               float:left;
+               border:1px solid;
+               margin-right:2px;
+            }
+            
+            #wrapName{
+               float:left;
+               border:1px solid;
+            }
+         </style>
+      <title>React App</title>
+   </head>
+   <body>
+      <div id = "app"></div>      
+	  <script src="/client/src/bundle.js"></script>
+   </body>
+
+</html>
